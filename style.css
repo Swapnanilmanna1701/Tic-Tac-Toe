@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(76, 206, 156);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 18vmin;
+    width: 18vmin;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#btn{
+    cursor: pointer;
+    height: 30px;
+    margin: 10px 10px;
+
+
+}
+.hide{
+    display: none;
+}
+
+
+
+
+
